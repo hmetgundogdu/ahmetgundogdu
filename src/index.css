@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'FreePixel';
+  src: url('assets/FreePixel.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#app {
+  font-family: FreePixel, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
