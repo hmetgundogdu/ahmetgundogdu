@@ -4,16 +4,7 @@
     about me, cheers.
   </section>
   <section class="app-container">
-    <a
-      class="twitter-timeline"
-      href="https://twitter.com/hmetGundogdu?ref_src=twsrc%5Etfw"
-      >Tweets by hmetGundogdu</a
-    >
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
+    <Timeline id="hmetgundogdu" sourceType="list" :options="{ theme: 'dark' }"/>
   </section>
 </template>
 
