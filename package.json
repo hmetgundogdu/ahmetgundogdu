@@ -7,11 +7,12 @@
     "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
-    "vue": "^3.0.0-rc.1"
+    "vue": "^3.0.0-rc.1",
+    "vue-tweet-embed": "^2.4.0"
   },
   "devDependencies": {
-    "vite": "^1.0.0-rc.1",
     "@vue/compiler-sfc": "^3.0.0-rc.1",
-    "execa": "latest"
+    "execa": "latest",
+    "vite": "^1.0.0-rc.1"
   }
 }

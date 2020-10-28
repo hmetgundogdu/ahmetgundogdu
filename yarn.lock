@@ -786,6 +786,21 @@ execa@^4.0.3:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
+execa@latest:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-4.1.0.tgz#4e5491ad1572f2f17a77d388c6c857135b22847a"
+  integrity sha512-j5W0//W7f8UxAn8hXVnwG8tLwdiUy4FJLcSupCg6maBYZDpyBvTApK7KyuI4bKj8KOh1r2YH+6ucuYtJv1bTZA==
+  dependencies:
+    cross-spawn "^7.0.0"
+    get-stream "^5.0.0"
+    human-signals "^1.1.1"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^4.0.0"
+    onetime "^5.1.0"
+    signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
 fast-glob@^3.1.1:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.2.4.tgz#d20aefbf99579383e7f3cc66529158c9b98554d3"
@@ -2006,6 +2021,11 @@ vite@^1.0.0-rc.1:
     slash "^3.0.0"
     vue "^3.0.0-rc.10"
     ws "^7.3.1"
+
+vue-tweet-embed@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/vue-tweet-embed/-/vue-tweet-embed-2.4.0.tgz#8707efd49b519fd2201200ea1ba68881c35d886d"
+  integrity sha512-bjViatv0priR1dTEPJpRyWigWGUTUC28VT/sWTaZE+RBWuj/XZvOU5Hzk+O8Mue2dBCAHJrRpoO1VKlcgmHohg==
 
 vue@^3.0.0-rc.1, vue@^3.0.0-rc.10:
   version "3.0.2"
